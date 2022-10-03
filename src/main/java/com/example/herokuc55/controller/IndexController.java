@@ -14,7 +14,7 @@ public class IndexController {
 
 	@GetMapping
 	public String getIndex(){
-		System.out.println("Hello")
+		System.out.println("Hello");
 		return "home";
 	}
 }
